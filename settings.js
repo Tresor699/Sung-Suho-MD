@@ -7,16 +7,16 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
-    // add your Session Id make sure it starts with suho~
+    // drakonis~cnkyWJ4Y#aWFx0h4Netny4q6O5jqw8JrFiJLMwOQnuya7I1o0y9U
 
     PREFIX: process.env.PREFIX || ".",
-    // add your prefix for bot
+    // .
 
     BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
-    // make bot public-private-inbox-group 
+    // public
 
     LINK_WHITELIST: "youtube.com,github.com",
 
@@ -77,7 +77,7 @@ module.exports = {
     // automatic delete links without removing member 
 
     OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
-    // add your bot owner number
+    // 243835361275
 
     OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
     // add bot owner name
